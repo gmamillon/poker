@@ -1,5 +1,7 @@
 <template>
-    <div class="hand"></div>
+    <div class="hand">
+        <div class="hand__cards"></div>
+    </div>
 </template>
 
 <script>

@@ -5,8 +5,12 @@ import router from '../router'
 export default createStore({
   state: {
     user: {},
-    token: "",
-    gameCode: "",
+    token: '',
+    gameCode: '',
+    river: {},
+    vilains: {},
+    hand: {},
+
   },
   mutations: {
     LOG(state, res) {

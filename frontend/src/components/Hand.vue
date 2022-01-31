@@ -5,5 +5,11 @@
 <script>
 export default {
     name: 'Hand',
+    props: {
+        hand: {
+            type: Object,
+            required: true
+        }
+    }
 }
 </script>

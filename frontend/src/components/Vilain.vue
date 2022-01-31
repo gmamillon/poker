@@ -4,6 +4,12 @@
 
 <script>
 export default {
-    name: 'Player',
+    name: 'Vilain',
+    props: {
+        vilain: {
+            type: Object,
+            required: true
+        }
+    }
 }
 </script>
